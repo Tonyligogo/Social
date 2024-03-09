@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/e6630efc06.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Social platform</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h2>onlineChat</h2>
+            </div>
+            <div class="search">
+                <input class="search" type="search" placeholder="Search for creators, inspirations, and projects" />
+            </div>
+            <div class="top-right">
+                <button class="btn">Create</button>
+                <img class="icon" src="./images/author-1.jpg" alt="Profile photo" />
+            </div>
+        </div>
+    </nav>
+    <!-- main body -->
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="profile">
+                    <img class="icon" src="./images/diana2.jpg" alt="Profile photo" />
+                    <div class="text">
+                        <p>Diana Ayi</p>
+                        <span>@dayi</span>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li class="item active">
+                            <div class="ionIcon"><i class="fa fa-house"></i></div>
+                            <a><span>Home</span> </a>
+                        </li>
+                        <li class="item">
+                            <div class="ionIcon">
+                                <i class="fa fa-compass"></i>
+                            </div>
+                            <a><span>Explore</span></a>
+                        </li>
+                        <li class="item" id="notifications">
+                            <div class="bell">
+                                <i class="fa fa-bell"><small class="notification-count">9+</small></i
+                  >
+                </div>
+                <a class="notifications"
+                  ><span>Notifications</span>
+                  <div class="notifications-popup">
+                    <div class="notification">
+                      <div>
+                        <img src="./images/author-1.jpg" class="icon2" />
+                      </div>
+                      <div>
+                        <b>Lallana Rhodes</b> accepted your friend request.
+                        <small>2 DAYS AGO</small>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div>
+                        <img src="./images/author-2.jpg" class="icon2" />
+                      </div>
+                      <div>
+                        <b>Molly Walker</b> and <b>283 others</b> liked your
+                        post. <small>1 WEEK AGO</small>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div>
+                        <img src="./images/author-3.jpg" class="icon2" />
+                      </div>
+                      <div>
+                        <b>Tommy Williams</b> commented on a post you are tagged
+                        in. <small>4 DAYS AGO</small>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div>
+                        <img src="./images/author-4.jpg" class="icon2" />
+                      </div>
+                      <div>
+                        <b>Amy Rosetti</b> commented on a post you are tagged
+                        in. <small>2 HOURS AGO</small>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div>
+                        <img src="./images/author-5.jpg" class="icon2" />
+                      </div>
+                      <div>
+                        <b>Sasha Banks</b> commented on your post.
+                        <small>2 MINUTES AGO</small>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="item" id="message-notification">
+                <div class="bell">
+                  <i class="fa fa-message"
+                    ><small class="notification-count">6</small></i
+                  >
+                </div>
+                <a><span>Messages</span></a>
+              </li>
+              <li class="item">
+                <div class="ionIcon">
+                  <i class="fa fa-bookmark"></i>
+                            </div>
+                            <a><span>Bookmarks</span></a>
+                        </li>
+                        <li class="item">
+                            <div class="ionIcon">
+                                <i class="fa fa-chart-line"></i>
+                            </div>
+                            <a><span>Analytics</span></a>
+                        </li>
+                        <li class="item theme">
+                            <div class="ionIcon">
+                                <i class="fa fa-palette"></i>
+                            </div>
+                            <a class="theme"><span>Theme</span></a>
+                        </li>
+                        <li class="last item">
+                            <div class="ionIcon">
+                                <i class="fa fa-gear"></i>
+                            </div>
+                            <a><span>Settings</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn leftbtn">Create Post</button>
+            </div>
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/diana2.jpg" alt="" />
+                        </div>
+                        <p>Your story</p>
+                    </div>
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/mike2.jpg" alt="" />
+                        </div>
+                        <p>Mike Perry</p>
+                    </div>
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/zendaya2.jpg" alt="" />
+                        </div>
+                        <p>Zendaya</p>
+                    </div>
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/lila2.jpg" alt="" />
+                        </div>
+                        <p>Lila Wayes</p>
+                    </div>
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/gabriel2.jpg" alt="" />
+                        </div>
+                        <p>Gabriel</p>
+                    </div>
+                    <div class="story">
+                        <div class="icon">
+                            <img class="icon" src="./images/garvey1.jpg" alt="" />
+                        </div>
+                        <p>Garvey</p>
+                    </div>
+                </div>
+                <!-- end of stories -->
+                <form>
+                    <div class="icon">
+                        <img class="icon" src="./images/author-1.jpg" alt="" />
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Diana?" />
+                    <button class="btn">Post</button>
+                </form>
+                <!-- end of form -->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/gabriel2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Gabriel</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/gabriel1.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-1.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/garvey1.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Garvey</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/garvey.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-1.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/mike2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Mike Perry</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/mike1.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-1.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/zendaya2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Zendaya</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/zendaya1.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-1.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/lila2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Lila Wayes</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/lila1.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-1.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="icon">
+                                <img class="icon" src="./images/tory2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Tory Kay</h4>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                            <div class="menuicon">
+                                <span> <i class="fa fa-ellipsis"></i> </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/tory1.jpg" alt="" />
+                        </div>
+                        <div class="actionbuttons">
+                            <div class="leftbuttons">
+                                <span><i class="fa fa-heart"></i></span>
+                                <span><i class="fa fa-comment-dots"></i></span>
+                                <span><i class="fa fa-share-nodes"></i></span>
+                            </div>
+                            <div class="rightbutton">
+                                <span><i class="fa fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="likedby">
+                            <span><img class="icon" src="./images/author-5.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-4.jpg" alt=""
+                /></span>
+                            <span><img class="icon" src="./images/author-2.jpg" alt=""
+                /></span>
+                            <p>Liked by <b>Omarion</b> and <b>2,304 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <b>Lana Rose</b> Lorem ipsum dolor sit quisquom eius.
+                                <span class="harshtag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="messagetab">
+                    <div class="head">
+                        <span>Messages</span>
+                        <span><i class="fa fa-pen-to-square"></i></span>
+                    </div>
+                    <input type="search" placeholder="Search messages" id="messageSearch" />
+                    <div class="tabs">
+                        <span class="active">Primary</span>
+                        <span>General</span>
+                        <span>Requests(7)</span>
+                    </div>
+                    <div class="messages">
+                        <div class="message">
+                            <div class="icon active-user">
+                                <img class="icon" src="./images/author-1.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Eden Quist</h4>
+                                <small class="textmuted">Just wake up bruh</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="icon">
+                                <img class="icon" src="./images/author-6.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Frank Deila</h4>
+                                <small>Received bruh. Thanks!</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="icon">
+                                <img class="icon" src="./images/author-2.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Jane Doe</h4>
+                                <small>ok</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="icon">
+                                <img class="icon" src="./images/author-3.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Daniel Johnson</h4>
+                                <small>2 new messages</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="icon">
+                                <img class="icon" src="./images/author-4.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Juliet Mokarey</h4>
+                                <small class="textmuted">lol you right</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="icon">
+                                <img class="icon" src="./images/author-5.jpg" alt="" />
+                            </div>
+                            <div class="info">
+                                <h4>Tomika Hall</h4>
+                                <small>Birthday tomorrow!</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="heading">Requests</p>
+                <div class="request">
+                    <div class="message">
+                        <div class="icon">
+                            <img class="icon" src="./images/author-1.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                            <h4>Lennon Stella</h4>
+                            <small class="textmuted">8 mutual friends</small>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Accept</button>
+                        <button class="btn">Decline</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="message">
+                        <div class="icon">
+                            <img class="icon" src="./images/author-5.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                            <h4>Julie Estelle</h4>
+                            <small class="textmuted">12 mutual friends</small>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Accept</button>
+                        <button class="btn">Decline</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="message">
+                        <div class="icon">
+                            <img class="icon" src="./images/author-3.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                            <h4>Travis Scott</h4>
+                            <small class="textmuted">1 mutual friend</small>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Accept</button>
+                        <button class="btn">Decline</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="message">
+                        <div class="icon">
+                            <img class="icon" src="./images/author-6.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                            <h4>Tommy Lee</h4>
+                            <small class="textmuted">4 mutual friends</small>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">Accept</button>
+                        <button class="btn">Decline</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="themeCustomization">
+            <div class="card">
+                <h2>Customize your view</h2>
+                <p class="textmuted">Manage your font size, color, and background.</p>
+                <div class="fontSize">
+                    <h4>Font Size</h4>
+                    <div>
+                        <h6>Aa</h6>
+                        <div class="chooseSize">
+                            <span class="fontSize1"></span>
+                            <span class="fontSize2 active"></span>
+                            <span class="fontSize3"></span>
+                            <span class="fontSize4"></span>
+                            <span class="fontSize5"></span>
+                        </div>
+                        <h3>Aa</h3>
+                    </div>
+                </div>
+                <div class="color">
+                    <h4>Color</h4>
+                    <div class="chooseColor">
+                        <span class="color1 active"></span>
+                        <span class="color2"></span>
+                        <span class="color3"></span>
+                        <span class="color4"></span>
+                        <span class="color5"></span>
+                    </div>
+                </div>
+                <div class="background">
+                    <h4>Background</h4>
+                    <div class="chooseBg">
+                        <div class="bg1 active">
+                            <span></span>
+                            <h5 for="bg1">Light</h5>
+                        </div>
+                        <div class="bg2">
+                            <span></span>
+                            <h5>Dim</h5>
+                        </div>
+                        <div class="bg3">
+                            <span></span>
+                            <h5 for="bg3">Dark</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js" async></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
